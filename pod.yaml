@@ -7,7 +7,7 @@ spec:
   - name: kaniko
     image: gcr.io/kaniko-project/executor:latest
     args:
-    - "--context=git://github.com/GSA-COMET-Technical-Challenge/kaniko-pod-tracer-round"
+    - "--context=git://github.com/GSA-COMET-Technical-Challenge/react-tracer-round"
     - "--destination=rivagsacomettechchal/react-tracer:latest"
     volumeMounts:
     - name: kaniko-secret
